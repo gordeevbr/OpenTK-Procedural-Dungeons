@@ -11,17 +11,13 @@ namespace OpenTK_Procedural
 
     class Cell
     {
-        public Vector2d LeftUpperPoint { get; private set; }
-        public int Width { get; private set; }
-        public int Height { get; private set; }
+        public Rectangle Rectangle { get; private set; }
         public Color FillColor { get; private set; }
         public Color BorderColor { get; private set; }
 
-        public Cell(Vector2d LeftUpperPoint, int Width, int Height)
+        public Cell(Rectangle Rectangle)
         {
-            this.LeftUpperPoint = LeftUpperPoint;
-            this.Width = Width;
-            this.Height = Height;
+            this.Rectangle = Rectangle;
             FillColor = Color.CadetBlue;
             BorderColor = Color.AliceBlue;
         }

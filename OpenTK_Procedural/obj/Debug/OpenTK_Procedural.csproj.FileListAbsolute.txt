@@ -12,3 +12,19 @@ C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenT
 C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.csproj.GenerateResource.Cache
 C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.exe
 C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.pdb
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\bin\Debug\OpenTK_Procedural.exe.config
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.exe
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.pdb
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\bin\Debug\OpenTK_Procedural.exe
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\bin\Debug\OpenTK_Procedural.pdb
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\bin\Debug\OpenTK.dll
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\bin\Debug\OpenTK.GLControl.dll
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\bin\Debug\System.Collections.Immutable.dll
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\bin\Debug\OpenTK.pdb
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\bin\Debug\OpenTK.xml
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\bin\Debug\OpenTK.GLControl.xml
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\bin\Debug\System.Collections.Immutable.xml
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.csprojResolveAssemblyReference.cache
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.Form1.resources
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.Properties.Resources.resources
+D:\IDE\VS2015Community\workspace\opentk-procedural-generator\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.csproj.GenerateResource.Cache

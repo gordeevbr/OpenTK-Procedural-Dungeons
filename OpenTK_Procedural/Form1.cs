@@ -22,8 +22,11 @@ namespace OpenTK_Procedural
         public Form1()
         {
             InvalidationCallback Invalidate = InvalidateGL;
+
             Queue<ICellEngineState> Program = new Queue<ICellEngineState>();
-            CellEngine = new CellEngineStrategy(Invalidate, 10, Program);
+            Program.Enqueue(new SpawnState());
+
+            CellEngine = new CellEngineStrategy(Invalidate, 30, Program);
             InitializeComponent();
         }
 
@@ -75,23 +78,23 @@ namespace OpenTK_Procedural
 
         private void RenderCell(Cell Renderable)
         {
-            double X = Field.TranslateCoordinatesX(Renderable.LeftUpperPoint.X, ViewPortWidth);
-            double Y = Field.TranslateCoordinatesY(Renderable.LeftUpperPoint.Y, ViewPortHeight);
-            double OffsetX = Field.TranslateCoordinatesX(Renderable.Width, ViewPortWidth);
-            double OffsetY = Field.TranslateCoordinatesY(Renderable.Height, ViewPortHeight);
+            double X = Field.TranslateCoordinatesX(Renderable.Rectangle.X, ViewPortWidth);
+            double Y = Field.TranslateCoordinatesY(Renderable.Rectangle.Y, ViewPortHeight);
+            double OffsetX = Field.TranslateCoordinatesX(Renderable.Rectangle.Width, ViewPortWidth);
+            double OffsetY = Field.TranslateCoordinatesY(Renderable.Rectangle.Height, ViewPortHeight);
             GL.MatrixMode(MatrixMode.Modelview);
             GL.LoadIdentity();
             GL.Color3(Renderable.FillColor);
             GL.Begin(PrimitiveType.Quads);
-            GL.Vertex2(X, Y - OffsetY);
-            GL.Vertex2(X + OffsetX, Y - OffsetY);
+            GL.Vertex2(X, Y + OffsetY);
+            GL.Vertex2(X + OffsetX, Y + OffsetY);
             GL.Vertex2(X + OffsetX, Y);
             GL.Vertex2(X, Y);
             GL.End();
             GL.Color3(Renderable.BorderColor);
             GL.Begin(PrimitiveType.LineLoop);
-            GL.Vertex2(X + OffsetX, Y - OffsetY);
-            GL.Vertex2(X, Y - OffsetY);
+            GL.Vertex2(X + OffsetX, Y + OffsetY);
+            GL.Vertex2(X, Y + OffsetY);
             GL.Vertex2(X, Y);
             GL.Vertex2(X + OffsetX, Y);
             GL.End();

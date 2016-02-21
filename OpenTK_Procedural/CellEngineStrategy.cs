@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
+using System.Drawing;
 using System.Linq;
 using System.Threading;
 
@@ -28,6 +29,7 @@ namespace OpenTK_Procedural
             this.Invalidate = Invalidate;
             this.FPS = FPS;
             this.Program = Program;
+            Cells = new List<Cell>();
             TimerCallback TickCallback = Tick;
             Timer = new Timer(Tick, null, Timeout.Infinite, Timeout.Infinite);
         }
