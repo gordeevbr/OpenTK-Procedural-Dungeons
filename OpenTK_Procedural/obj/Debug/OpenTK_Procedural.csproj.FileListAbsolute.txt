@@ -1,0 +1,14 @@
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\bin\Debug\OpenTK_Procedural.exe.config
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\bin\Debug\OpenTK_Procedural.exe
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\bin\Debug\OpenTK_Procedural.pdb
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\bin\Debug\OpenTK.dll
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\bin\Debug\OpenTK.GLControl.dll
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\bin\Debug\OpenTK.pdb
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\bin\Debug\OpenTK.xml
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\bin\Debug\OpenTK.GLControl.xml
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.csprojResolveAssemblyReference.cache
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.Form1.resources
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.Properties.Resources.resources
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.csproj.GenerateResource.Cache
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.exe
+C:\Users\noire_000\Documents\Visual Studio 2015\Projects\OpenTK_Procedural\OpenTK_Procedural\obj\Debug\OpenTK_Procedural.pdb
